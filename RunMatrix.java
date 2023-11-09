@@ -14,6 +14,11 @@ public class RunMatrix {
     System.out.println("\nDefault Matrix:");
     matrix.printMatrix();
     matrix.populateMatrix();
+
+    System.out.println("\nPopulating Matrix...");
+    System.out.println("\nMatrix after populating with values:");
+    matrix.printMatrix();
+    matrix.flipMatrix();
     }
 
   }
