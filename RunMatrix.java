@@ -10,6 +10,10 @@ public class RunMatrix {
     }  else {
     Matrix matrix = new Matrix(size);
 
+    System.out.println("\nPrinting Matrix with default values...");
+    System.out.println("\nDefault Matrix:");
+    matrix.printMatrix();
+    matrix.populateMatrix();
     }
 
   }
