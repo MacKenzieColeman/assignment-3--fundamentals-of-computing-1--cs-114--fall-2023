@@ -27,4 +27,13 @@ public class Matrix {
     }
   }
 
+  public void populateMatrix() {
+    int value = 1;
+    for (int row = 0; row < size; row++) {
+      for (int column = 0; column < size; column++) {
+        matrix[row][column] = value++;
+      }
+    }
+  }
+
 }
