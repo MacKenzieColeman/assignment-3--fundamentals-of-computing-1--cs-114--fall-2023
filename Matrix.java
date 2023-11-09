@@ -14,4 +14,17 @@ public class Matrix {
     matrix[x2][y2] = temp;
   }
 
+  public void printMatrix() {
+    for (int row = 0; row < size; row++) {
+      for (int column = 0; column < size; column++) {
+        if (row + column == size - 1) {
+          System.out.print("\u001B[1;94m\u001B[4m" + matrix[row][column] + "\u001B[0m\t");
+        } else {
+          System.out.print(matrix[row][column] + "\t");
+        }
+      }
+      System.out.println();
+    }
+  }
+
 }
