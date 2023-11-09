@@ -19,7 +19,10 @@ public class RunMatrix {
     System.out.println("\nMatrix after populating with values:");
     matrix.printMatrix();
     matrix.flipMatrix();
-    }
 
+    System.out.println("\nFlipping Matrix...");
+    System.out.println("\nMatrix after flipping:");
+    matrix.printMatrix();
+    }
   }
 }
